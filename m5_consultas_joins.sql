@@ -115,6 +115,3 @@ FROM (SELECT
 	AS consolidado
 GROUP BY canal;
 
---Verificación: no se encuentran registros de ventas en el segundo semestre. Todas las fechas son del semestre 1.--
-
-SELECT*FROM Ventas
